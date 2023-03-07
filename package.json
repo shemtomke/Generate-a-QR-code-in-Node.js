@@ -1,21 +1,29 @@
 {
-    "name": "QRCODE-URL-main",
-    "description": "",
-    "version": "1.0.0",
-    "main": "index.js",
-    "scripts": {
-        "start": "npm index.js",
-        "dev": "nodemon index.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "body-parser": "^1.19.0",
-        "ejs": "^3.1.6",
-        "express": "^4.17.1",
-        "nodemon": "^2.0.7",
-        "qrcode": "^1.4.4"
-    }
+  "name": "qrcode-url-main",
+  "description": "This code will enable you to generate a QR code in Node.js from URLs and Text and preview it as a simple webpage.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.7",
+    "qrcode": "^1.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shemtomke/Generate-a-QR-code-in-Node.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shemtomke/Generate-a-QR-code-in-Node.js/issues"
+  },
+  "homepage": "https://github.com/shemtomke/Generate-a-QR-code-in-Node.js#readme"
 }
